@@ -39,7 +39,7 @@ class Sensor:
 
     def mostrar_resumen(self):
         if len(self.mediciones) == 0:
-            print("No se encuentran mediciones.")
+            print("No se encuentran las mediciones.")
         else:
             print("\n--- Resumen del Sensor ---")
             print("Nombre del sensor:", self.nombre)
