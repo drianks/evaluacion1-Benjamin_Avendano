@@ -25,7 +25,7 @@ class Libro:
         self.titulo = titulo
         self.autor = autor
         self.copias_disponibles = copias_disponibles
-# se define el titulo y ekl autor del libro
+# se define el titulo, Autor y copias quue esten disponibles
     def prestar(self):
         if self.copias_disponibles > 0:
             self.copias_disponibles -= 1
